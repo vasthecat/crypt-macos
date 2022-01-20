@@ -1,0 +1,12 @@
+crypt-macos-arm64
+=================
+
+Stripped down crypt library snatched right from musl-libc. Intended only for
+usage of `crypt_r` function on arm64 macOS computers.
+
+How to use
+----------
+
+Build the static library with `make` command. After that you can copy files
+`crypt.h` and `libcrypt.a` to any project that uses them.
+
